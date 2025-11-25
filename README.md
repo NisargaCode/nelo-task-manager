@@ -1,16 +1,16 @@
-## 📋 Task Manager Application**
+# 📋 Task Manager Application
 A full-featured task management application built with React, Vite, and Tailwind CSS. This application demonstrates modern React development practices including hooks, component architecture, state management, and session handling.
 
 
-## 🚀 Live Demo**
+# 🚀 Live Demo
 ``
 nelo-task-manager.netlify.app
 ``
 
 ---
 
-**✨ Features**
-**🔐 Authentication**
+# ✨ Features
+🔐 Authentication
 
 - Login System with email/password
 - Session Management using sessionStorage
@@ -19,18 +19,18 @@ nelo-task-manager.netlify.app
 
 ---
 
-**📝 Task Management (CRUD Operations)**
+# 📝 Task Management (CRUD Operations)
 
-✅ Create tasks with title, description, priority, and due date
-✅ Read and display all tasks with detailed information
-✅ Update tasks with inline editing
-✅ Delete tasks with confirmation dialog
-✅ Toggle task status (Complete/Pending)
-✅ Form Validation for required fields
+- ✅ Create tasks with title, description, priority, and due date
+- ✅ Read and display all tasks with detailed information
+- ✅ Update tasks with inline editing
+- ✅ Delete tasks with confirmation dialog
+- ✅ Toggle task status (Complete/Pending)
+- ✅ Form Validation for required fields
 
----
 
-## 🔍 Search & Filter**
+
+## 🔍 Search & Filter
 
 -Elastic Search with case-insensitive partial matching
 -Debounced Search (500ms delay) to optimize performance
@@ -45,25 +45,25 @@ nelo-task-manager.netlify.app
 
 
 
-# 📊 Dashboard Features**
+# 📊 Dashboard Features
 
-Real-time task statistics
-Task count by status
-Visual priority badges
-Responsive layout
-
-
-
-# 📧 Task Automation**
-
-Automated Email Notifications (Simulated Cron Job)
-Checks pending tasks every 20 minutes
-Logs mock email notifications to console
-Production-ready architecture for real email integration
+-Real-time task statistics
+-Task count by status
+-Visual priority badges
+-Responsive layout
 
 
 
-# 💾 Data Persistence**
+# 📧 Task Automation
+
+-Automated Email Notifications (Simulated Cron Job)
+-Checks pending tasks every 20 minutes
+-Logs mock email notifications to console
+-Production-ready architecture for real email integration
+
+
+
+# 💾 Data Persistence
 
 -Tasks stored in sessionStorage
 -Data persists across page refreshes
@@ -72,7 +72,7 @@ Production-ready architecture for real email integration
 
 
 
-# 🛠️ Tech Stack**
+# 🛠️ Tech Stack
 
 -Frontend Framework: React 18
 -Build Tool: Vite
@@ -83,23 +83,8 @@ Production-ready architecture for real email integration
 
 # 📁 Project Structure
 
-task-manager/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── LoginScreen.jsx      # Authentication component
-│   │   ├── TaskForm.jsx          # Task creation/editing form
-│   │   ├── TaskItem.jsx          # Individual task card
-│   │   └── TaskList.jsx          # Task list with search/filter
-│   ├── hooks/
-│   │   └── useDebounce.js        # Custom debounce hook
-│   ├── App.jsx                   # Main application component
-│   ├── main.jsx                  # Application entry point
-│   └── index.css                 # Global styles + Tailwind
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-└── README.md
+<img width="835" height="548" alt="image" src="https://github.com/user-attachments/assets/cea86f69-53c8-420a-af90-86957a6aab1a" />
+
 
 ## 🚀 Getting Started
 Prerequisites
@@ -125,7 +110,10 @@ Start the development server
 
 
 Open in browser
-
-```http://localhost:5173
+``
+http://localhost:5173
+```
 Build for Production
-```npm run build
+```
+npm run build
+```
