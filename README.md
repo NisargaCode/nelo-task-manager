@@ -32,14 +32,14 @@ nelo-task-manager.netlify.app
 
 ## 🔍 Search & Filter
 
--Elastic Search with case-insensitive partial matching
--Debounced Search (500ms delay) to optimize performance
--Multiple Filters:
+- Elastic Search with case-insensitive partial matching
+- Debounced Search (500ms delay) to optimize performance
+- Multiple Filters:
 
--All Tasks
--Completed Tasks
--Pending Tasks
--Priority Levels (High, Medium, Low)
+- All Tasks
+- Completed Tasks
+- Pending Tasks
+- Priority Levels (High, Medium, Low)
 
 
 
@@ -47,39 +47,39 @@ nelo-task-manager.netlify.app
 
 # 📊 Dashboard Features
 
--Real-time task statistics
--Task count by status
--Visual priority badges
--Responsive layout
+- Real-time task statistics
+- Task count by status
+- Visual priority badges
+- Responsive layout
 
 
 
 # 📧 Task Automation
 
--Automated Email Notifications (Simulated Cron Job)
--Checks pending tasks every 20 minutes
--Logs mock email notifications to console
--Production-ready architecture for real email integration
+- Automated Email Notifications (Simulated Cron Job)
+- Checks pending tasks every 20 minutes
+- Logs mock email notifications to console
+- Production-ready architecture for real email integration
 
 
 
 # 💾 Data Persistence
 
--Tasks stored in sessionStorage
--Data persists across page refreshes
--Cleared on logout for security
+- Tasks stored in sessionStorage
+- Data persists across page refreshes
+- Cleared on logout for security
 
 
 
 
 # 🛠️ Tech Stack
 
--Frontend Framework: React 18
--Build Tool: Vite
--Styling: Tailwind CSS
--Icons: Lucide React
--State Management: React Hooks (useState, useEffect)
--Storage: Browser SessionStorage
+- Frontend Framework: React 18
+- Build Tool: Vite
+- Styling: Tailwind CSS
+- Icons: Lucide React
+- State Management: React Hooks (useState, useEffect)
+- Storage: Browser SessionStorage
 
 # 📁 Project Structure
 
