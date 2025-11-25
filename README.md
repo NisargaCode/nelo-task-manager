@@ -1,16 +1,66 @@
-# React + Vite
+**📋 Task Manager Application**
+A full-featured task management application built with React, Vite, and Tailwind CSS. This application demonstrates modern React development practices including hooks, component architecture, state management, and session handling.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+**🚀 Live Demo**
+nelo-task-manager.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**✨ Features**
+**🔐 Authentication**
 
-## React Compiler
+Login System with email/password
+Session Management using sessionStorage
+Secure logout functionality
+Session persists until browser tab closes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**📝 Task Management (CRUD Operations)**
 
-## Expanding the ESLint configuration
+✅ Create tasks with title, description, priority, and due date
+✅ Read and display all tasks with detailed information
+✅ Update tasks with inline editing
+✅ Delete tasks with confirmation dialog
+✅ Toggle task status (Complete/Pending)
+✅ Form Validation for required fields
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**🔍 Search & Filter**
+
+Elastic Search with case-insensitive partial matching
+Debounced Search (500ms delay) to optimize performance
+Multiple Filters:
+
+All Tasks
+Completed Tasks
+Pending Tasks
+Priority Levels (High, Medium, Low)
+
+
+
+**📊 Dashboard Features**
+
+Real-time task statistics
+Task count by status
+Visual priority badges
+Responsive layout
+
+**📧 Task Automation**
+
+Automated Email Notifications (Simulated Cron Job)
+Checks pending tasks every 20 minutes
+Logs mock email notifications to console
+Production-ready architecture for real email integration
+
+**💾 Data Persistence**
+
+Tasks stored in sessionStorage
+Data persists across page refreshes
+Cleared on logout for security
+
+
+**🛠️ Tech Stack**
+
+Frontend Framework: React 18
+Build Tool: Vite
+Styling: Tailwind CSS
+Icons: Lucide React
+State Management: React Hooks (useState, useEffect)
+Storage: Browser SessionStorage
