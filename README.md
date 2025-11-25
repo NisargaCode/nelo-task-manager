@@ -109,10 +109,8 @@ Start the development server
 ```
 npm run dev
 ```
-
-
 Open in browser
-``
+```
 http://localhost:5173
 ```
 Build for Production
