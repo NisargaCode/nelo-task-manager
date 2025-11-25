@@ -34,26 +34,27 @@ export default function App() {
   }, [tasks]);
 
   // Email automation - check every 20 minutes
-  useEffect(() => {
-    const interval = setInterval(() => {
-      checkPendingTasks();
-    }, 20 * 60 * 1000); // 20 minutes
+  // Email automation - check every 20 minutes
+useEffect(() => {
+  const interval = setInterval(() => {
+    checkPendingTasks();
+  }, 20 * 60 * 1000); // 20 minutes
 
-    return () => clearInterval(interval);
-  }, [tasks]);
+  return () => clearInterval(interval);
+}, [tasks]);
 
-  const checkPendingTasks = () => {
-    const pendingTasks = tasks.filter(task => !task.completed);
-    if (pendingTasks.length > 0) {
-      console.log('===== MOCK EMAIL NOTIFICATION =====');
-      console.log(`Time: ${new Date().toLocaleString()}`);
-      console.log(`Pending Tasks Count: ${pendingTasks.length}`);
-      pendingTasks.forEach(task => {
-        console.log(`- ${task.title} (Due: ${task.dueDate}, Priority: ${task.priority})`);
-      });
-      console.log('===================================');
-    }
-  };
+const checkPendingTasks = () => {
+  const pendingTasks = tasks.filter(task => !task.completed);
+  if (pendingTasks.length > 0) {
+    console.log('===== MOCK EMAIL NOTIFICATION =====');
+    console.log(`Time: ${new Date().toLocaleString()}`);
+    console.log(`Pending Tasks Count: ${pendingTasks.length}`);
+    pendingTasks.forEach(task => {
+      console.log(`- ${task.title} (Due: ${task.dueDate}, Priority: ${task.priority})`);
+    });
+    console.log('===================================');
+  }
+};
 
   const handleLogin = () => {
     setIsLoggedIn(true);
