@@ -1,11 +1,13 @@
 **📋 Task Manager Application**
 A full-featured task management application built with React, Vite, and Tailwind CSS. This application demonstrates modern React development practices including hooks, component architecture, state management, and session handling.
 
---
-**🚀 Live Demo**
-nelo-task-manager.netlify.app
 
---
+**🚀 Live Demo**
+``
+nelo-task-manager.netlify.app
+``
+
+---
 
 **✨ Features**
 **🔐 Authentication**
@@ -15,7 +17,7 @@ Session Management using sessionStorage
 Secure logout functionality
 Session persists until browser tab closes
 
---
+---
 
 **📝 Task Management (CRUD Operations)**
 
@@ -26,7 +28,7 @@ Session persists until browser tab closes
 ✅ Toggle task status (Complete/Pending)
 ✅ Form Validation for required fields
 
---
+---
 
 **🔍 Search & Filter**
 
@@ -39,7 +41,7 @@ Completed Tasks
 Pending Tasks
 Priority Levels (High, Medium, Low)
 
---
+---
 
 
 
@@ -50,7 +52,7 @@ Task count by status
 Visual priority badges
 Responsive layout
 
---
+---
 
 **📧 Task Automation**
 
@@ -59,7 +61,7 @@ Checks pending tasks every 20 minutes
 Logs mock email notifications to console
 Production-ready architecture for real email integration
 
---
+---
 
 **💾 Data Persistence**
 
@@ -67,7 +69,7 @@ Tasks stored in sessionStorage
 Data persists across page refreshes
 Cleared on logout for security
 
---
+---
 
 
 **🛠️ Tech Stack**
@@ -80,4 +82,4 @@ State Management: React Hooks (useState, useEffect)
 Storage: Browser SessionStorage
 
 
---
+---
